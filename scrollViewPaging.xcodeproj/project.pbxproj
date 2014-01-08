@@ -21,6 +21,10 @@
 		00F19693187D3092004B4A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F19675187D3091004B4A92 /* UIKit.framework */; };
 		00F1969B187D3092004B4A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F19699187D3092004B4A92 /* InfoPlist.strings */; };
 		00F1969D187D3092004B4A92 /* scrollViewPagingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F1969C187D3092004B4A92 /* scrollViewPagingTests.m */; };
+		00F196AA187D312A004B4A92 /* image0.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F196A7187D312A004B4A92 /* image0.png */; };
+		00F196AB187D312A004B4A92 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F196A8187D312A004B4A92 /* image1.png */; };
+		00F196AC187D312A004B4A92 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F196A9187D312A004B4A92 /* image2.png */; };
+		00F196AE187D319D004B4A92 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F196AD187D319D004B4A92 /* image3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		00F19698187D3092004B4A92 /* scrollViewPagingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scrollViewPagingTests-Info.plist"; sourceTree = "<group>"; };
 		00F1969A187D3092004B4A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00F1969C187D3092004B4A92 /* scrollViewPagingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollViewPagingTests.m; sourceTree = "<group>"; };
+		00F196A7187D312A004B4A92 /* image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image0.png; sourceTree = "<group>"; };
+		00F196A8187D312A004B4A92 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		00F196A9187D312A004B4A92 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		00F196AD187D319D004B4A92 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,7 @@
 		00F19677187D3091004B4A92 /* scrollViewPaging */ = {
 			isa = PBXGroup;
 			children = (
+				00F196A6187D3117004B4A92 /* Res */,
 				00F19680187D3091004B4A92 /* AppDelegate.h */,
 				00F19681187D3091004B4A92 /* AppDelegate.m */,
 				00F19683187D3091004B4A92 /* Main.storyboard */,
@@ -150,6 +159,17 @@
 				00F19699187D3092004B4A92 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00F196A6187D3117004B4A92 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				00F196AD187D319D004B4A92 /* image3.png */,
+				00F196A7187D312A004B4A92 /* image0.png */,
+				00F196A8187D312A004B4A92 /* image1.png */,
+				00F196A9187D312A004B4A92 /* image2.png */,
+			);
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +248,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F196AA187D312A004B4A92 /* image0.png in Resources */,
 				00F1968A187D3091004B4A92 /* Images.xcassets in Resources */,
 				00F1967C187D3091004B4A92 /* InfoPlist.strings in Resources */,
+				00F196AC187D312A004B4A92 /* image2.png in Resources */,
+				00F196AE187D319D004B4A92 /* image3.png in Resources */,
 				00F19685187D3091004B4A92 /* Main.storyboard in Resources */,
+				00F196AB187D312A004B4A92 /* image1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
